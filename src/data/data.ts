@@ -43,3 +43,18 @@ export const logos = [
     src: '/images/Logo5.png',
   },
 ];
+
+export const about = [
+  {
+    heading: 'Our Team: ',
+    text: 'Introduce the core members of your team, their expertise, and their commitment to your clients&apos; success.',
+  },
+  {
+    heading: 'Core Values: ',
+    text: 'Core Values: Share your company&apos;s core values and the principles that guide your work.',
+  },
+  {
+    heading: 'Client-Centric Approach: ',
+    text: 'Emphasize your dedication to delivering outstanding service and results for your clients.',
+  },
+];

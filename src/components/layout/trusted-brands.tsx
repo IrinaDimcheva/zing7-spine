@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function TrustedBrands() {
   return (
-    <section className="max-w-screen-fit mx-auto py-8">
+    <section className="max-w-screen-fit mx-auto my-8">
       <Divider />
       <ul className="flex gap-12 justify-between overflow-x-auto w-full">
         {logos.map(({ name, src }) => (
