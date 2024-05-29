@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-gradient-to-b from-primary from-0%  via-primary/30 via-40% to-transparent to-90%">
       <div className="max-w-screen-fit mx-auto px-6 xl:px-0">
         <Navbar />
-        <section className="mt-8 -mb-24 md:my-24">
+        <section className="mt-8 mb-24 md:my-24">
           <div className="w-[672px] max-w-[90vw] mx-auto text-center px-4">
             <div className="relative">
               <h1
