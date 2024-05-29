@@ -40,7 +40,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body
+        className={`${poppins.className} text-natural-black leading-[140%]`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

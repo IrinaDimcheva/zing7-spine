@@ -9,18 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'pale-lime-green': '#B4FF5C',
-        'anti-flash-white': '#F1F4F5',
-        'light-100': '#F4F4F4',
-        'light-200': '#EBEBEB',
-        'light-300': '#DCDCDC',
-        'dark-default': '#ADADAD',
-        'dark-500': '#7B7B7B',
-        'dark-600': '#464646',
-        'dark-700': '#353535',
-        'dark-800': '#0C0C0C',
+        primary: '#B4FF5C',
+        accent: '#F1F4F5',
+        natural: {
+          black: '#0C0C0C',
+          2: '#353535',
+          3: '#464646',
+          4: '#7B7B7B',
+          5: '#ADADAD',
+          6: '#DCDCDC',
+          7: '#EBEBEB',
+          8: '#F4F4F4',
+          white: '#FFFFFF',
+        },
       },
       screens: {
+        fit: '1170px',
         wide: '1440px',
       },
     },
