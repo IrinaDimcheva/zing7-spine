@@ -1,5 +1,6 @@
 import About from '@/components/layout/about';
 import Header from '@/components/layout/header';
+import Services from '@/components/layout/services';
 import TrustedBrands from '@/components/layout/trusted-brands';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <TrustedBrands />
       <About />
+      <Services />
     </main>
   );
 }

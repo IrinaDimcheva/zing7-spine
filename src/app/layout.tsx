@@ -8,7 +8,7 @@ export const poppins = Poppins({
   weight: ['400', '500', '600'],
 });
 
-export const sfPro = localFont({
+const sfPro = localFont({
   src: [
     {
       path: './sf-pro/SFPRODISPLAYMEDIUM.woff2',
@@ -26,6 +26,7 @@ export const sfPro = localFont({
       style: 'normal',
     },
   ],
+  variable: '--sf-pro',
 });
 
 export const metadata: Metadata = {
@@ -41,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} text-natural-black leading-[140%] font-bold`}
+        className={`${poppins.className} ${sfPro.variable} text-natural-black leading-[140%] font-bold`}
       >
         {children}
       </body>

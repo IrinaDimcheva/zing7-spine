@@ -1,4 +1,3 @@
-import { sfPro } from '@/app/layout';
 import Navbar from './navbar';
 import Button from '../ui/button';
 import Image from 'next/image';
@@ -8,12 +7,10 @@ export default function Header() {
     <header className="bg-gradient-to-b from-primary from-0%  via-primary/30 via-40% to-transparent to-90%">
       <div className="max-w-screen-fit mx-auto px-6 xl:px-0">
         <Navbar />
-        <section className="mt-8 mb-24 md:my-24">
+        <section className="md:mt-8 mb-24">
           <div className="w-[672px] max-w-[90vw] mx-auto text-center px-4">
             <div className="relative">
-              <h1
-                className={`${sfPro.className} text-[48px] md:text-[88px] font-bold leading-[110%]`}
-              >
+              <h1 className={`headline-h4 md:headline-h1`}>
                 We love to find solutions
               </h1>
               <span className="absolute bottom-3 md:bottom-5 w-[149px] right-[10%] md:w-[240px] md:right-[41%]">
@@ -25,7 +22,7 @@ export default function Header() {
                 />
               </span>
             </div>
-            <p className="text-natural-3 text-sm md:text-base font-bold py-8">
+            <p className="text-natural-3 text-sm md:text-base leading-[140%] py-8">
               Elevate your online presence with Spine cutting-edge solutions.
               Discover limitless possibilities for your digital agency&apos;s
               success.

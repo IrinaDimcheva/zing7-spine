@@ -1,3 +1,4 @@
+import plugin from 'tailwindcss/plugin';
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -29,6 +30,41 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addComponents }) {
+      addComponents({
+        '.headline-h1': {
+          fontSize: '88px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '110%',
+        },
+        '.headline-h2': {
+          fontSize: '72px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '110%',
+        },
+        '.headline-h3': {
+          fontSize: '56px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '110%',
+        },
+        '.headline-h4': {
+          fontSize: '48px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '110%',
+        },
+        '.headline-h5': {
+          fontSize: '36px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '110%',
+        },
+      });
+    }),
+  ],
 };
 export default config;

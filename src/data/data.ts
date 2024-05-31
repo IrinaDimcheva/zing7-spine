@@ -58,3 +58,34 @@ export const about = [
     text: 'Emphasize your dedication to delivering outstanding service and results for your clients.',
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    imageUrl: './images/WebDesign&Development2.svg',
+    title: 'Web Design and Development',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    id: 2,
+    imageUrl: './images/24070840_bwink_edu_05_single_11 1.svg',
+    title: 'Web Design and Development 2',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    id: 3,
+    imageUrl: './images/Digital_Marketing.svg',
+    title: 'Web Design and Development 3',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    id: 4,
+    imageUrl: './images/bwink_edu.svg',
+    title: 'Web Design and Development 4',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+];
