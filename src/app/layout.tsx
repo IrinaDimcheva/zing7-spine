@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { Poppins } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 import './globals.css';
+import Header from '@/components/layout/header';
 
 export const poppins = Poppins({
   subsets: ['latin'],
@@ -44,6 +46,8 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${sfPro.variable} text-natural-black leading-[140%] font-bold`}
       >
+        <Header />
+        <Toaster position="top-right" />
         {children}
       </body>
     </html>

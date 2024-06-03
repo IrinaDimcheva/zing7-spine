@@ -3,6 +3,7 @@
 export default function Button({
   type = 'primary',
   label = '',
+  disabled = false,
   onClick = () => {},
 }) {
   return (
@@ -14,6 +15,7 @@ export default function Button({
         (type === 'fill' &&
           'bg-natural-black text-natural-white border-current')
       } font-bold border rounded-xl px-6 py-3`}
+      disabled={disabled}
     >
       {label}
     </button>

@@ -8,7 +8,6 @@ import CallToAction from '@/components/layout/cta';
 export default function Home() {
   return (
     <main>
-      <Header />
       <TrustedBrands />
       <About />
       <Services />
