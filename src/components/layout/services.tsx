@@ -6,7 +6,7 @@ import { services } from '@/data/data';
 export default function Services() {
   return (
     <section className="bg-[url('/images/services-bg.svg')]">
-      <div className="max-w-screen-fit mx-auto px-8 xl:px-0 py-16 md:py-32">
+      <div className="max-w-screen-fit mx-auto px-8 xl:px-0 py-12 md:pt-32">
         <div className="flex flex-col lg:flex-row justify-between gap-4">
           <div className="relative">
             <h2 className={`headline-h5 md:headline-h2 max-w-[652px]`}>

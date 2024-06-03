@@ -36,7 +36,7 @@ export default function Slider({ services }: ServicesData) {
                 : 'hidden'
             }`}
           >
-            <div className="flex flex-col md:flex-row justify-between items-center gap-12 py-16 md:py-20">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-12 py-12 md:py-20">
               <div className="shrink-0 bg-natural-white rounded-2xl p-4">
                 <Image
                   src={item.imageUrl}
@@ -62,7 +62,7 @@ export default function Slider({ services }: ServicesData) {
         ))}
       </ul>
       <div className="flex gap-8 items-center justify-between">
-        <div className="flex gap-4">
+        <div className="flex gap-2 md:gap-4">
           {slides.map((_, i) => (
             <div
               key={i}
@@ -74,8 +74,8 @@ export default function Slider({ services }: ServicesData) {
             />
           ))}
         </div>
-        <div className="bg-natural-black/10 min-w-12 lg:w-[70%] h-[1px] flex justify-between items-center my-8"></div>
-        <div className="flex gap-4">
+        <div className="bg-natural-black/10 min-w-8 lg:w-[70%] h-[1px] flex justify-between items-center my-8"></div>
+        <div className="flex gap-4 overflow-visible">
           <button
             onClick={handlePrevious}
             className={`${

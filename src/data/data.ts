@@ -89,3 +89,31 @@ export const services = [
       'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
   },
 ];
+
+export const faq = [
+  {
+    id: 1,
+    question: 'What is Spine?',
+    answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 2,
+    question: `How can Spine enhance my digital agency's narrative?`,
+    answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 3,
+    question: 'What makes Spine different from other website solutions?',
+    answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 4,
+    question: 'Is Spine suitable for agencies of all sizes?',
+    answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 5,
+    question: `How can Spine help improve my agency's creativity?`,
+    answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+];
