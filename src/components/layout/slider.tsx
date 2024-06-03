@@ -25,7 +25,7 @@ export default function Slider({ services }: ServicesData) {
       <ul
         className={`flex transition-transform ease-in-out duration-500 translate-x-${
           currentIndex * 100
-        }%`}
+        }% pb-10`}
       >
         {services.map((item, index) => (
           <li
@@ -36,8 +36,8 @@ export default function Slider({ services }: ServicesData) {
                 : 'hidden'
             }`}
           >
-            <div className="flex flex-col md:flex-row justify-between items-center gap-12 py-12 md:py-20">
-              <div className="shrink-0 bg-natural-white rounded-2xl p-4">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-[60px]">
+              <div className="shrink-0 bg-natural-white rounded-2xl p-[23px]">
                 <Image
                   src={item.imageUrl}
                   alt={item.title}

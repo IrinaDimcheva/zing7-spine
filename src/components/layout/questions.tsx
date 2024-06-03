@@ -13,8 +13,8 @@ export default function Questions() {
   }
 
   return (
-    <section className="max-w-[970px] mx-auto py-16 px-8 lg:px-0 md:pt-32">
-      <div className="pb-6 md:pb-12">
+    <section className="max-w-[970px] mx-auto pt-[60px] md:pt-[160px] pb-10 md:pb-20 px-6 lg:px-0">
+      <div className="pb-5">
         <div className="relative">
           <h2 className="headline-h5 md:headline-h2">
             Got Questions? We&apos;ve Got Answers!
@@ -36,7 +36,7 @@ export default function Questions() {
         </p>
       </div>
       <div>
-        <ul className="flex flex-col gap-6">
+        <ul className="flex flex-col gap-5">
           {faq.map((item, i) => (
             <QuestionItem
               key={item.id}

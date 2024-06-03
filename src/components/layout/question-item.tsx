@@ -14,10 +14,10 @@ export default function QuestionItem({
   onClick,
 }: Question) {
   return (
-    <li className="flex flex-col gap-6">
+    <li className="flex flex-col gap-5">
       <div
         onClick={onClick}
-        className={`flex justify-between items-center p-4 md:p-6 ${
+        className={`flex justify-between items-center p-5 ${
           isOpen ? 'bg-primary' : 'bg-accent'
         } rounded-xl cursor-pointer`}
       >

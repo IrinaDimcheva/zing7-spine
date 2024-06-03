@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="hidden md:flex justify-between items-center font-bold py-8">
+      <div className="hidden md:flex justify-between items-center font-bold pt-[30px] pb-[20px] lg:py-[34px]">
         <Link href="#" onClick={handleClose}>
           <Image src="./images/logo.svg" alt="Spine" width={143} height={28} />
         </Link>
