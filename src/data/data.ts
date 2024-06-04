@@ -1,3 +1,5 @@
+import { title } from 'process';
+
 export const navLinks = [
   {
     href: '#',
@@ -115,5 +117,73 @@ export const faq = [
     id: 5,
     question: `How can Spine help improve my agency's creativity?`,
     answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+];
+
+export const socials = [
+  {
+    name: 'facebook',
+    href: '/',
+    iconUrl: './icons/facebook-logo.svg',
+  },
+  {
+    name: 'twitter',
+    href: '/',
+    iconUrl: './icons/twitter-logo.svg',
+  },
+  {
+    name: 'instagram',
+    href: '/',
+    iconUrl: './icons/instagram-logo.svg',
+  },
+];
+
+export const footerLinks = [
+  {
+    title: 'Menu',
+    links: [
+      { name: 'Home', href: '#' },
+      {
+        name: 'About',
+        href: '#about',
+      },
+      {
+        name: 'Services',
+        href: '#services',
+      },
+      {
+        name: 'FAQ',
+        href: '#faq',
+      },
+      {
+        name: 'Contact',
+        href: '#contact',
+      },
+    ],
+  },
+  {
+    title: 'Services',
+    links: [
+      {
+        name: 'Web Design & Development',
+        href: '#services',
+      },
+      {
+        name: 'Branding',
+        href: '#services',
+      },
+      {
+        name: 'Digital Marketing',
+        href: '#services',
+      },
+      {
+        name: 'Content Creation',
+        href: '#services',
+      },
+      {
+        name: 'Technical Support',
+        href: '#services',
+      },
+    ],
   },
 ];

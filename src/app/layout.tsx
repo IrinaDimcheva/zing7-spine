@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import './globals.css';
 import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
 
 export const poppins = Poppins({
   subsets: ['latin'],
@@ -49,6 +50,7 @@ export default function RootLayout({
         <Header />
         <Toaster position="top-right" />
         {children}
+        <Footer />
       </body>
     </html>
   );

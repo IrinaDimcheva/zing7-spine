@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { SubmitHandler, useForm } from 'react-hook-form';
+import { useForm, SubmitHandler } from 'react-hook-form';
 import { z } from 'zod';
 import Button from '../ui/button';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -55,7 +55,7 @@ export default function MessageForm() {
               {...register('firstName')}
               type="text"
               placeholder="First Name"
-              className="bg-accent rounded-xl px-[18px] py-[14px]"
+              className="bg-accent outline-primary rounded-xl max-w-[41vw] px-[18px] py-[14px]"
             />
             {errors.firstName && (
               <div className="text-red-500 text-xs">
@@ -68,7 +68,7 @@ export default function MessageForm() {
               {...register('lastName')}
               type="text"
               placeholder="Last Name"
-              className="bg-accent rounded-xl px-[18px] py-[14px]"
+              className="bg-accent outline-primary rounded-xl max-w-[42vw] px-[18px] py-[14px]"
             />
             {errors.lastName && (
               <div className="text-red-500 text-xs">
@@ -90,7 +90,7 @@ export default function MessageForm() {
             {...register('email')}
             type="email"
             placeholder="company@gmail.com"
-            className="bg-accent rounded-xl px-[18px] py-[14px]"
+            className="bg-accent outline-primary rounded-xl px-[18px] py-[14px]"
           />
           {errors.email && (
             <div className="text-red-500 text-xs">{errors.email.message}</div>
@@ -107,7 +107,7 @@ export default function MessageForm() {
             {...register('phone')}
             type="text"
             placeholder="+359 000 000 000"
-            className="bg-accent rounded-xl px-[18px] py-[14px]"
+            className="bg-accent outline-primary rounded-xl px-[18px] py-[14px]"
           />
           {errors.phone && (
             <div className="text-red-500 text-xs">{errors.phone.message}</div>
@@ -119,7 +119,7 @@ export default function MessageForm() {
         <textarea
           {...register('message')}
           name="message"
-          className="bg-accent resize-none h-[190px] px-[24px] py-[14px] rounded-xl"
+          className="bg-accent outline-primary resize-none h-[190px] px-[24px] py-[14px] rounded-xl"
         ></textarea>
         {errors.message && (
           <div className="text-red-500 text-xs">{errors.message.message}</div>
