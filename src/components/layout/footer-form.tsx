@@ -35,7 +35,7 @@ export default function FooterForm() {
         {...register('email')}
         type="text"
         placeholder="Enter email address"
-        className="border border-natural-8 text-natural-5 block p-3 my-5 bg-transparent"
+        className="border border-natural-8 outline-none text-natural-5 block p-3 my-5 bg-transparent"
       />
       {errors.email && (
         <div className="text-red-500 text-xs">{errors.email.message}</div>
