@@ -4,10 +4,18 @@ import { navLinks } from '@/data/data';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../ui/button';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add('overflow-y-hidden');
+    }
+
+    return () => document.body.classList.remove('overflow-y-hidden');
+  }, [open]);
 
   function handleClose() {
     setOpen(false);
@@ -59,7 +67,7 @@ export default function Navbar() {
           </button>
         </div>
         {open && (
-          <div className="flex flex-col gap-16 justify-start items-center w-full h-screen overflow-y-none pb-24">
+          <div className="flex flex-col gap-16 justify-start items-center w-full h-screen">
             <ul className="flex flex-col justify-between gap-16">
               {navLinks.map(({ href, name }) => (
                 <li key={href}>

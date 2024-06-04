@@ -3,7 +3,10 @@ import MessageForm from './message-form';
 
 export default function Contact() {
   return (
-    <section className="max-w-screen-fit mx-auto py-[60px] lg:pt-20 lg:pb-[160px] px-6 lg:px-0 flex max-lg:flex-col gap-20">
+    <section
+      id="contact"
+      className="max-w-screen-fit mx-auto py-[60px] lg:pt-20 lg:pb-[160px] px-6 lg:px-0 flex max-lg:flex-col gap-20"
+    >
       <div className="text-center lg:text-left max-w-[530px]">
         <div>
           <h3 className="headline-h5 lg:headline-h3 pb-5 lg:pb-8">

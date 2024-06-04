@@ -5,7 +5,7 @@ import { services } from '@/data/data';
 
 export default function Services() {
   return (
-    <section className="bg-[url('/images/services-bg.svg')]">
+    <section id="services" className="bg-[url('/images/services-bg.svg')]">
       <div className="max-w-screen-fit mx-auto px-6 xl:px-0 py-[60px] md:pt-[120px] md:pb-[80px]">
         <div className="flex flex-col lg:flex-row justify-between gap-4 pb-[60px] md:pb-[80px]">
           <div className="relative">
