@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="bg-gradient-to-b from-primary from-0%  via-primary/30 via-40% to-transparent to-90%">
+    <header className="bg-gradient-to-b from-primary/60 from-0%  via-primary/40 via-30% to-transparent to-70%">
       <div className="max-w-screen-fit mx-auto px-6 xl:px-0">
         <Navbar />
         {/* <section className="md:mt-8 mb-24"> */}
