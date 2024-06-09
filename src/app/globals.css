@@ -15,3 +15,12 @@ h4,
 h5 {
   font-family: var(--sf-pro);
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
