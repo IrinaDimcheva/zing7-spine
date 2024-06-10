@@ -46,7 +46,7 @@ export const logos = [
   },
 ];
 
-export const about = [
+export const homeAbout = [
   {
     heading: 'Our Team: ',
     text: 'Introduce the core members of your team, their expertise, and their commitment to your clients&apos; success.',
@@ -185,5 +185,24 @@ export const footerLinks = [
         href: '/services',
       },
     ],
+  },
+];
+
+export const about = [
+  {
+    heading: 'Expertise: ',
+    text: 'Our team of professionals brings years of experience and expertise in DigitalBoostPro.',
+  },
+  {
+    heading: 'Commitment: ',
+    text: 'We are committed to like a quality, innovation, customer satisfaction, etc.',
+  },
+  {
+    heading: 'Client-Centric Approach: ',
+    text: 'Our clients are at the heart of everything we do. We listen, understand, and tailor solutions to meet their specific needs',
+  },
+  {
+    heading: 'Innovation: ',
+    text: 'We stay up-to-date with the latest industry trends and technologies, ensuring our clients always receive cutting-edge solutions.',
   },
 ];

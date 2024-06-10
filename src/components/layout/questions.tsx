@@ -13,10 +13,7 @@ export default function Questions() {
   }
 
   return (
-    <section
-      id="faq"
-      className="max-w-[970px] mx-auto pt-[60px] md:pt-[160px] pb-10 md:pb-20 px-6 lg:px-0"
-    >
+    <section className="max-w-[970px] mx-auto pt-[60px] md:pt-[160px] pb-10 md:pb-20 px-6 lg:px-0">
       <div className="pb-5">
         <div className="relative">
           <h2 className="headline-h5 md:headline-h2">

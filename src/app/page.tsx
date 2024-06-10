@@ -1,9 +1,9 @@
-import About from '@/components/layout/about';
+import About from '@/app/home/_components/about';
 import Questions from '@/components/layout/questions';
 import Services from '@/components/layout/services';
 import TrustedBrands from '@/components/layout/trusted-brands';
-import Contact from '@/components/layout/contact';
 import Header from '@/components/layout/header';
+import HomeContact from './home/_components/home-contact';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <Services />
         <Questions />
-        <Contact />
+        <HomeContact />
       </main>
     </>
   );

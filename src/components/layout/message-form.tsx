@@ -17,7 +17,7 @@ const schema = z.object({
 
 type FormFields = z.infer<typeof schema>;
 
-export default function MessageForm() {
+export default function MessageForm({ email = '', phone = '' }) {
   const {
     register,
     handleSubmit,
@@ -89,7 +89,7 @@ export default function MessageForm() {
           <input
             {...register('email')}
             type="email"
-            placeholder="company@gmail.com"
+            placeholder={email}
             className="bg-accent outline-primary rounded-xl px-[18px] py-[14px]"
           />
           {errors.email && (
@@ -106,7 +106,7 @@ export default function MessageForm() {
           <input
             {...register('phone')}
             type="text"
-            placeholder="+359 000 000 000"
+            placeholder={phone}
             className="bg-accent outline-primary rounded-xl px-[18px] py-[14px]"
           />
           {errors.phone && (
