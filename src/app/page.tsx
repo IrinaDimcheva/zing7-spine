@@ -3,15 +3,19 @@ import Questions from '@/components/layout/questions';
 import Services from '@/components/layout/services';
 import TrustedBrands from '@/components/layout/trusted-brands';
 import Contact from '@/components/layout/contact';
+import Header from '@/components/layout/header';
 
 export default function Home() {
   return (
-    <main>
-      <TrustedBrands />
-      <About />
-      <Services />
-      <Questions />
-      <Contact />
-    </main>
+    <>
+      <Header />
+      <main className="font-bold">
+        <TrustedBrands />
+        <About />
+        <Services />
+        <Questions />
+        <Contact />
+      </main>
+    </>
   );
 }

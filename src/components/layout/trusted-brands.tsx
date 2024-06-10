@@ -30,7 +30,7 @@ export default function TrustedBrands() {
   };
 
   return (
-    <section className="max-w-screen-fit mx-auto py-6 md:py-[80px]">
+    <section className="max-w-screen-fit mx-auto py-6 md:py-[80px] overflow-hidden">
       <Divider />
       <div>
         <Slider {...settings}>

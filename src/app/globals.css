@@ -16,11 +16,15 @@ h5 {
   font-family: var(--sf-pro);
 }
 
-html,
+/* html,
 body {
   overflow-x: hidden;
 }
 
 body {
   position: relative;
+} */
+
+.slick-slide > div {
+  margin-right: 20px;
 }

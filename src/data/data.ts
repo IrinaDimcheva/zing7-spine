@@ -2,23 +2,23 @@ import { title } from 'process';
 
 export const navLinks = [
   {
-    href: '#',
+    href: '/',
     name: 'Home',
   },
   {
-    href: '#about',
+    href: '/about',
     name: 'About',
   },
   {
-    href: '#services',
+    href: '/services',
     name: 'Services',
   },
   {
-    href: '#faq',
+    href: '/faq',
     name: 'FAQ',
   },
   {
-    href: '#contact',
+    href: '/contact',
     name: 'Contact',
   },
 ];
@@ -142,22 +142,22 @@ export const footerLinks = [
   {
     title: 'Menu',
     links: [
-      { name: 'Home', href: '#' },
+      { name: 'Home', href: '/' },
       {
         name: 'About',
-        href: '#about',
+        href: '/about',
       },
       {
         name: 'Services',
-        href: '#services',
+        href: '/services',
       },
       {
         name: 'FAQ',
-        href: '#faq',
+        href: '/faq',
       },
       {
         name: 'Contact',
-        href: '#contact',
+        href: '/contact',
       },
     ],
   },
@@ -166,23 +166,23 @@ export const footerLinks = [
     links: [
       {
         name: 'Web Design & Development',
-        href: '#services',
+        href: '/services',
       },
       {
         name: 'Branding',
-        href: '#services',
+        href: '/services',
       },
       {
         name: 'Digital Marketing',
-        href: '#services',
+        href: '/services',
       },
       {
         name: 'Content Creation',
-        href: '#services',
+        href: '/services',
       },
       {
         name: 'Technical Support',
-        href: '#services',
+        href: '/services',
       },
     ],
   },

@@ -3,7 +3,6 @@ import localFont from 'next/font/local';
 import { Poppins } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import './globals.css';
-import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const poppins = Poppins({
@@ -45,9 +44,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${sfPro.variable} text-natural-black leading-[140%] font-bold`}
+        className={`${poppins.className} ${sfPro.variable} text-natural-black leading-[140%]`}
       >
-        <Header />
         <Toaster position="top-right" />
         {children}
         <Footer />
