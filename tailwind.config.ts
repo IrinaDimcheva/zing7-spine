@@ -63,6 +63,12 @@ const config: Config = {
           fontWeight: '700',
           lineHeight: '110%',
         },
+        '.headline-h6': {
+          fontSize: '24px',
+          fontStyle: 'normal',
+          fontWeight: '600',
+          lineHeight: '110%',
+        },
       });
     }),
   ],

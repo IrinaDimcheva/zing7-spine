@@ -92,7 +92,7 @@ export const services = [
   },
 ];
 
-export const faq = [
+export const homeFAQ = [
   {
     id: 1,
     question: 'What is Spine?',
@@ -117,6 +117,35 @@ export const faq = [
     id: 5,
     question: `How can Spine help improve my agency's creativity?`,
     answer: `Spine is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+];
+
+export const servicesFAQ = [
+  {
+    id: 1,
+    question: 'What is DigitalBoostPro?',
+    answer: `DigitalBoostPro is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 2,
+    question: `How can DigitalBoostPro enhance my digital agency's narrative?`,
+    answer: `DigitalBoostPro is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 3,
+    question:
+      'What makes DigitalBoostPro different from other website solutions?',
+    answer: `DigitalBoostPro is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 4,
+    question: 'Is DigitalBoostPro suitable for agencies of all sizes?',
+    answer: `DigitalBoostPro is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
+  },
+  {
+    id: 5,
+    question: `How can DigitalBoostPro help improve my agency's creativity?`,
+    answer: `DigitalBoostPro is a cutting-edge platform designed to elevate your digital agency's online presence. It combines impressive design with intuitive features, empowering you to tell your agency's story in a way that captivates clients.`,
   },
 ];
 
@@ -204,5 +233,32 @@ export const about = [
   {
     heading: 'Innovation: ',
     text: 'We stay up-to-date with the latest industry trends and technologies, ensuring our clients always receive cutting-edge solutions.',
+  },
+];
+
+export const solutions = [
+  {
+    icon: './icons/solutions1.svg',
+    title: '1. Digital Marketing Solutions',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    icon: './icons/solutions2.svg',
+    title: '2. Web Design and Development',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    icon: './icons/solutions3.svg',
+    title: '3. Consultancy and Strategy',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
+  },
+  {
+    icon: './icons/solutions4.svg',
+    title: '4. Analytics and Reporting',
+    description:
+      'Crafting digital masterpieces tailored to your brand, we turn concepts into visually stunning, user-friendly websites. Elevate your online identity with our cutting-edge web design and development services.',
   },
 ];

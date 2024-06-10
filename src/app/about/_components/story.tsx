@@ -15,7 +15,7 @@ export default function Story() {
         </p>
         <Button type="primary" label="Learn More →" />
       </div>
-      <div className="max-w-[400px] bg-accent rounded-xl px-10 py-4">
+      <div className="max-w-[400px] bg-accent rounded-2xl px-10 py-4">
         <Image
           src="./images/24070848_bwink_edu_07_single_2 1.svg"
           alt=""

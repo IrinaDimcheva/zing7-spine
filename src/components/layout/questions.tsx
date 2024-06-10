@@ -1,12 +1,22 @@
 'use client';
 
 import { useState } from 'react';
-import { faq } from '@/data/data';
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import QuestionItem from './question-item';
+import { homeFAQ, servicesFAQ } from '@/data/data';
+
+// export type FAQ = {
+//   id: number;
+//   question: string;
+//   answer: string;
+// }[];
 
 export default function Questions() {
   const [active, setActive] = useState(-1);
+  const pathname = usePathname();
+
+  const faq = pathname === '/' ? homeFAQ : servicesFAQ;
 
   function handleToggle(index: number) {
     setActive((prevIndex) => (prevIndex === index ? -1 : index));
@@ -37,11 +47,11 @@ export default function Questions() {
       </div>
       <div>
         <ul className="flex flex-col gap-5">
-          {faq.map((item, i) => (
+          {faq.map(({ id, question, answer }, i) => (
             <QuestionItem
-              key={item.id}
-              question={item.question}
-              answer={item.answer}
+              key={id}
+              question={question}
+              answer={answer}
               isOpen={active === i}
               onClick={() => handleToggle(i)}
             />

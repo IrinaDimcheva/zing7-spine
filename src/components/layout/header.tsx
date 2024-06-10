@@ -2,17 +2,9 @@
 
 import { usePathname } from 'next/navigation';
 import Navbar from './navbar';
-// import Button from '../ui/button';
-// import Image from 'next/image';
-// import dynamic from 'next/dynamic';
 import HeaderHome from '../../app/home/_components/header-home';
 import HeaderAbout from '@/app/about/_components/header-about';
-
-// const getDynamicComponent = (c) =>
-//   dynamic(() => import(`./${c}`), {
-//     ssr: false,
-//     loading: () => <p>Loading...</p>,
-//   });
+import HeaderServices from '@/app/services/_components/header-services';
 
 export default function Header() {
   const pathname = usePathname();
@@ -29,6 +21,7 @@ export default function Header() {
         <Navbar />
         {pathname === '/' && <HeaderHome />}
         {pathname === '/about' && <HeaderAbout />}
+        {pathname === '/services' && <HeaderServices />}
       </div>
     </header>
   );

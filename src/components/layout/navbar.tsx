@@ -39,7 +39,7 @@ export default function Navbar() {
                     pathname.endsWith(href) &&
                     // 'underline underline-offset-8 decoration-2 decoration-primary'
                     'border-b-[3px] border-primary pb-1'
-                  }`}
+                  } hover:border-b-[3px] hover:border-primary hover:pb-1`}
                 >
                   {name}
                 </Link>
