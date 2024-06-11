@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import Button from '../ui/button';
+import Button from '../../../components/ui/button';
 import Slider from './slider';
 import { services } from '@/data/data';
+import SliderList from './slider';
 
 export default function Services() {
   return (
@@ -27,7 +28,7 @@ export default function Services() {
           </div>
         </div>
 
-        <Slider services={services} />
+        <SliderList services={services} />
       </div>
     </section>
   );

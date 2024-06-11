@@ -12,12 +12,20 @@ export default function TrustedBrands() {
   const settings = {
     dots: false,
     infinite: false,
-    slidesToShow: 5,
-    // slidesToScroll: 1,
+    slidesToShow: 4.78,
+    slidesToScroll: 0,
     autoplay: true,
     speed: 2000,
     cssEase: 'linear',
     responsive: [
+      {
+        breakpoint: 1180,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
       {
         breakpoint: 768,
         settings: {
@@ -35,8 +43,8 @@ export default function TrustedBrands() {
       <div>
         <Slider {...settings}>
           {logos.map(({ name, src }) => (
-            <div key={name} className="w-[76px] lg:w-[160px] overflow-hidden">
-              <Image src={src} alt={name} height={40} width={160} />
+            <div key={name} className="w-[76px] lg:w-[180px] overflow-hidden">
+              <Image src={src} alt={name} height={40} width={180} />
             </div>
           ))}
         </Slider>
