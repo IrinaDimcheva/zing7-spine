@@ -29,7 +29,7 @@ export default function TrustedBrands() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3.5,
           slidesToScroll: 1,
           infinite: true,
         },
